@@ -1,0 +1,42 @@
+# Node dependencies
+/node_modules/
+
+# Build outputs
+/dist/
+/build/
+out/
+/.parcel-cache/
+
+# Vite / React caches
+/.vite/
+/.vitepress/
+
+# Tailwind CSS generated files
+! You typically don't need to ignore anything special — just ensure caches are covered
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# MacOS files
+.DS_Store
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Test coverage
+/coverage/
+
+# Misc
+yarn.lock
